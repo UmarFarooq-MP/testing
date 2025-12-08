@@ -100,3 +100,6 @@ LOGGING = {
 STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# after one hour it should expire
+JWT_EXP_MINUTES = 60
