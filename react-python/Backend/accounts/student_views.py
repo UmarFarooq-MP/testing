@@ -7,7 +7,7 @@ from django.conf import settings
 
 # MongoDB connection
 client = MongoClient(settings.DATABASES['default']['CLIENT']['host'])
-db = client["Chainflip"]
+db = client["SAMS"]
 Student_list = db["student"]
 Attendance_list = db["Attendance"]
 
