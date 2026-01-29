@@ -100,3 +100,6 @@ LOGGING = {
 STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JWT_EXP_MINUTES = 60
+

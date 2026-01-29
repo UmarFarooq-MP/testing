@@ -7,7 +7,7 @@ from django.conf import settings
 
 # MongoDB connection
 client = MongoClient(settings.DATABASES['default']['CLIENT']['host'])
-db = client["SAMS"]  # Replace with your database name
+db = client["TEST"]
 Student_list = db["student"]
 Attendance_list = db["Attendance"]
 
